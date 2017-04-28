@@ -4,6 +4,12 @@
 
 ### Usage:
 
+```javascript
+import swiper from './plugin/swiper'
+
+Vue.use(swiper)
+```
+
 ```html
 <swiper :indicator="true" :auto="5e3" :effect="horizontal" :mode="0">
 	<swiper-item>
