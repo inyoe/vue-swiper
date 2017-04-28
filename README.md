@@ -2,7 +2,7 @@
 
 
 
-## Usage:
+### Usage:
 
 ```html
 <swiper :indicator="true" :auto="5e3" :effect="horizontal" :mode="0">
@@ -24,11 +24,11 @@
 </swiper>
 ```
 
-## Options:
+### Options:
 
-    indicator:
-        是否显示指示点
-        default: false
+    indicator:<br>
+        是否显示指示点<br>
+        default: false<br>
     mode:
         0 - 单屏滚动模式
         1 - 自由滚动模式
