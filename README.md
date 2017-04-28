@@ -28,17 +28,17 @@
 
     indicator:<br>
         是否显示指示点<br>
-        default: false<br>
-    mode:
-        0 - 单屏滚动模式
-        1 - 自由滚动模式
-        default: 0
-    auto:
-        自动切换间隔时间，0则取消
-        default: 0
-    effect:
-        滑动方向
-        horizontal - 左右
-        vertical - 上下
-        default: 'horizontal'
+        default: false<br><br>
+    mode:<br>
+        0 - 单屏滚动模式<br>
+        1 - 自由滚动模式<br>
+        default: 0<br><br>
+    auto:<br>
+        自动切换间隔时间，0则取消<br>
+        default: 0<br><br>
+    effect:<br>
+        滑动方向<br>
+        horizontal - 左右<br>
+        vertical - 上下<br>
+        default: 'horizontal'<br><br>
         
