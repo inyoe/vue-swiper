@@ -51,12 +51,12 @@ Vue.use(swiper)
 	
 ### Methods:
 
-    toPrev()
-        单屏滚动模式 - 上一页
-    toNext()
-        单屏滚动模式 - 下一页
-    setPage(Num)
-        单屏滚动模式 - 到指定页,0开始
+    toPrev()<br>
+        单屏滚动模式 - 上一页<br>
+    toNext()<br>
+        单屏滚动模式 - 下一页<br>
+    setPage(Num)<br>
+        单屏滚动模式 - 到指定页,0开始<br>
 
 ### Mark
 
