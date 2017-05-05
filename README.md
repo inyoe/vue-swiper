@@ -61,8 +61,10 @@ Vue.use(swiper)
 ### Mark
 
     内容变化时更新：
+````
     <swiper ref="swiper">...</swiper>
     
     this.$nextTick(function(){
         this.$refs.swiper.init();
     })
+````
