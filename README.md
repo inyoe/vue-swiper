@@ -1,6 +1,7 @@
 # vue-swiper
 
-
+## demo
+http://demo.rabifoo.com/#/swiper
 
 ### Usage:
 
@@ -47,4 +48,21 @@ Vue.use(swiper)
         horizontal - 左右<br>
         vertical - 上下<br>
         default: 'horizontal'<br><br>
-        
+	
+### Methods:
+
+    toPrev()
+        单屏滚动模式 - 上一页
+    toNext()
+        单屏滚动模式 - 下一页
+    setPage(Num)
+        单屏滚动模式 - 到指定页,0开始
+
+### Mark
+
+    内容变化时更新：
+    <swiper ref="swiper">...</swiper>
+    
+    this.$nextTick(function(){
+        this.$refs.swiper.init();
+    })
